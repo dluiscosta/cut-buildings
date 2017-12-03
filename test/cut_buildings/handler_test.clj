@@ -1,7 +1,7 @@
-(ns new-grad-template.handler-test
+(ns cut-buildings.handler-test
   (:require [midje.sweet :refer :all]
             [ring.mock.request :as mock]
-            [new-grad-template.handler :refer :all]))
+            [cut-buildings.handler :refer :all]))
 
 (fact "on main route"
       (let [response (app (mock/request :get "/"))]
