@@ -1,6 +1,6 @@
 (ns cut-buildings.buildings
   (:require [compojure.core :refer :all]
-            [cut-buildings.buildings-operations :as operations]))
+            [cut-buildings.buildings-operations-efficiency :as operations]))
 
 ;Persistent structure with the collection of buildings heights.
 (def buildings_heights (atom operations/empty_collection))
